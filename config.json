@@ -1,0 +1,16 @@
+{
+    "Mysql_Host": "127.0.0.1",
+    "Mysql_Port": 3306,
+    "Mysql_Db": "MyV2Ray",
+    "Mysql_User": "MyV2Ray",
+    "Mysql_Password": "123456",
+    "Mysql_TLS": "false",
+    "Mysql_MaxOpenConns": 100,
+    "Mysql_MaxIdleConns": 10,
+    "V2rayClientAddr": "127.0.0.1:8301",
+    "V2rayTag": "proxy",
+    "Email": "@v2m.lite",
+    "AlterID": 1,
+    "Level": 1,
+    "CheckRate": 64
+}
