@@ -29,7 +29,7 @@ echo "您输入的是：${Mysql_Password:-123456}"
 
 apt-get update -y
 apt-get install curl git supervisor -y
-bash <(curl -L -s https://install.direct/go.sh)
+wget https://install.direct/go.sh && chmod +x go.sh && ./go.sh
 mkdir /root/v2mlite
 cd /root/v2mlite
 git clone -b master https://github.com/Moexin/V2MLite.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
